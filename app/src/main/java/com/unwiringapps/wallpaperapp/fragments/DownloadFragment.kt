@@ -24,7 +24,7 @@ class DownloadFragment : Fragment() {
          val allFiles : Array<File>
          val imageList = arrayListOf<String>()
 
-
+// downloading not working for now
 
         val  targetPath = Environment.getExternalStorageDirectory().absolutePath+"/Pictures/Amoled Wallpaper"
 
