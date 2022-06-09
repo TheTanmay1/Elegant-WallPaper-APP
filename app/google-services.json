@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045492426892",
+    "project_id": "elegant-wallpapers-firebase",
+    "storage_bucket": "elegant-wallpapers-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045492426892:android:1aaf9c0f8f61cf27adb3a9",
+        "android_client_info": {
+          "package_name": "com.unwiringapps.wallpaperapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045492426892-gpls0eb7pl6f3t2r4t3dpq9jvsj8odd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuDkw17WzdHaqohSgmHOTzmJKoCFyDQ7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045492426892-gpls0eb7pl6f3t2r4t3dpq9jvsj8odd3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/Success_kavach_main_layout.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_categoryenlarge.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_final_wallpaper.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/fragment_download.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/item_bom.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/item_cat.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/item_colortone.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/items_activity_cat_enlarge.xml" value="0.259375" />
+        <entry key="..\:/03)KOTLINANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/kavach_chote_items.xml" value="0.259375" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_categoryenlarge.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_final_wallpaper.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_main.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/fragment_download.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/fragment_home.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/item_bom.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/item_cat.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/item_colortone.xml" value="0.25833333333333336" />
+        <entry key="..\:/3.1)mixupsANDROIDSTUDIO5JULY2021/ANDROIDSTUDIOKOTLINPROJECTS/25)wallpaperapp8oct2021/app/src/main/res/layout/items_activity_cat_enlarge.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
