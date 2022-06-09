@@ -61,8 +61,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
    // coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.2'
 
    // rounded imageview github
     implementation 'com.makeramen:roundedimageview:2.3.0'
@@ -75,8 +75,4 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
 
-    //coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3'
-
-    implementation 'com.makeramen:roundedimageview:2.3.0'
 }

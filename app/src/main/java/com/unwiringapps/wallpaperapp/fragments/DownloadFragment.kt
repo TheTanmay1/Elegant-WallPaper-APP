@@ -21,20 +21,20 @@ class DownloadFragment : Fragment() {
 
         binding = FragmentDownloadBinding.inflate(layoutInflater, container, false)
 
-//         val allFiles : Array<File>
-//         val imageList = arrayListOf<String>()
+         val allFiles : Array<File>
+         val imageList = arrayListOf<String>()
 
 // downloading not working for now
 
-//        val  targetPath = Environment.getExternalStorageDirectory().absolutePath+"/Pictures/Amoled Wallpaper"
-//
-//        val targetFile = File(targetPath)
-//         allFiles = targetFile. listFiles()!!
+        val  targetPath = Environment.getExternalStorageDirectory().absolutePath+"/Pictures/ELEGANT Wallpaper"
 
-//        for (data in allFiles)
-//        {
-//            imageList.add(data.absolutePath)
-//        }
+        val targetFile = File(targetPath)
+         allFiles = targetFile. listFiles()!!
+
+        for (data in allFiles)
+        {
+            imageList.add(data.absolutePath)
+        }
 
 
 

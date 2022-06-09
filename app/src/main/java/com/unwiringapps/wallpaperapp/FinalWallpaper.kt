@@ -72,7 +72,7 @@ class FinalWallpaper : AppCompatActivity() {
         binding.dwnldbtn.setOnClickListener {
             val result: Deferred<Bitmap?> = GlobalScope.async {
                 urlImage.toBitmap()
-                
+
             }
             GlobalScope.launch(Dispatchers.Main) {
                 saveImage(result.await())
@@ -83,7 +83,7 @@ class FinalWallpaper : AppCompatActivity() {
 
     }
 
-    fun URL.toBitmap(): Bitmap? {
+    private fun URL.toBitmap(): Bitmap? {
         return try {
             BitmapFactory.decodeStream(openStream())
         } catch (e: IOException) {
@@ -93,14 +93,14 @@ class FinalWallpaper : AppCompatActivity() {
 
     }
 
-    @RequiresApi(Build.VERSION_CODES.Q)
+
     private fun saveImage(image: Bitmap?) {
         Log.d(TAG, "saveImage: image is ${image == null} $image")
 
         val random1 = Random().nextInt(520985)
         val random2 = Random().nextInt(952663)
 
-        val name = "Amoled-${random1 + random2}"
+        val name = "ELEGANT-${random1 + random2}"
 
         val data: OutputStream
         try {
@@ -108,10 +108,12 @@ class FinalWallpaper : AppCompatActivity() {
             val contentValues = ContentValues()
             contentValues.put(MediaStore.MediaColumns.DISPLAY_NAME, "$name.jpg")
             contentValues.put(MediaStore.MediaColumns.MIME_TYPE, "image/jpg")
-            contentValues.put(
-                MediaStore.MediaColumns.RELATIVE_PATH,
-                Environment.DIRECTORY_PICTURES + File.separator + "Amoled Wallpaper"
-            )
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                contentValues.put(
+                    MediaStore.MediaColumns.RELATIVE_PATH,
+                    Environment.DIRECTORY_PICTURES + File.separator + "Elegant Wallpaper"
+                )
+            }
             val imageUri = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues)
             Log.d(TAG, "saveImage: image uri is $imageUri")
             data = resolver.openOutputStream(imageUri!!)!!
@@ -124,7 +126,7 @@ class FinalWallpaper : AppCompatActivity() {
             Toast.makeText(this, "Image Not Save", Toast.LENGTH_SHORT).show()
         }
 
-        
+
     }
 
     companion object {
