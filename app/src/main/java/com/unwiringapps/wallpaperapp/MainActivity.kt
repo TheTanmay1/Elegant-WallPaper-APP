@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN) // these 2 lines are used to remove status bar
+        this.window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN) // these 2 lines are used to remove status bar
 
 
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -46,5 +46,7 @@ class MainActivity : AppCompatActivity() {
         transaction.replace(R.id.fragmentreplace, Fragment)
         transaction.commit()
     }
+
+
 
 }

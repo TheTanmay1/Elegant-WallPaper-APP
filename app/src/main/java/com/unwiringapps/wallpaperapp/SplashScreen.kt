@@ -31,6 +31,7 @@ class SplashScreen : AppCompatActivity() {
 
             startActivity(Intent(this, MainActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out) // this override pending transition code is used to animate when mainactivity opens
+            finish()
         }, 2500)
 
 

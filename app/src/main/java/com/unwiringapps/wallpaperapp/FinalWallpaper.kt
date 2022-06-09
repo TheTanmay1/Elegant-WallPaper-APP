@@ -45,8 +45,7 @@ class FinalWallpaper : AppCompatActivity() {
 
         val urlbruh = intent.getStringExtra("link")
 
-        val urlImage =
-            URL(urlbruh)
+        val urlImage = URL(urlbruh)
 
         Glide.with(this).load(urlbruh).into(binding.finalwallpaper)
 
